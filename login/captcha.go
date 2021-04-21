@@ -2,12 +2,13 @@ package login
 
 import (
 	"encoding/json"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/m4x1r/go-admin/modules/logger"
 )
 
 const (
